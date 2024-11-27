@@ -1,4 +1,6 @@
-def Funzione():
-    print("Questa è una funzione")
+import Gestione_Nomi
 
-Funzione()
+
+nomein = input("Inserisci il nome ")
+Gestione_Nomi.VisualizzaNome(nomein)
+print(Gestione_Nomi.ContaLettere(nomein))
